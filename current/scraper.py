@@ -108,6 +108,10 @@ def to_calendar(items):
         event.add('description', text)
         event.add('tzid', 'America/Indiana/Indianapolis')
         event.add('x-microsoft-cdo-busystatus', 'FREE')
+        event.add('X-WR-CALNAME','Rose Hullman Academic Calendar')
+        event.add('ORGANIZER;CN=RHIT','MAILTO:info@rose-hulman.edu')
+        
+        
         calendar.add_component(event)
 
     return calendar.to_ical()
