@@ -65,6 +65,6 @@ jobs:
           app-name: 'rhit-academic-calendar'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2B573583A3D341E6AD16D910C49CBDF7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1A375E02B20D4E4B9ED3183E6EBC1B4B }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
