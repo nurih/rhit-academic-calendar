@@ -6,3 +6,4 @@ azure-functions
 beautifulsoup4
 urllib3
 icalendar
+requests
